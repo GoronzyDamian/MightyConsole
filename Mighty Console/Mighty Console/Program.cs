@@ -14,6 +14,7 @@ namespace Mighty_Console
         {
             InitialisingConsole();
             GreetingUser();
+
             string userName = AskUserAboutTheirName();
             int ageOfUser = AsksAndCommentsUserAboutTheirAge();
             AskUserAboutTheirJob();
@@ -50,6 +51,12 @@ namespace Mighty_Console
             Console.Beep(350, 200);
             Console.Clear();
         }
+
+        static void Cookiesmash()
+        {
+
+        }
+
         static string AskUserAboutTheirName()
         {
             Console.WriteLine("Warte. Dich kenne ich garnicht. Neu hier?");
